@@ -64,5 +64,5 @@ app.get('/webhook', (req, res) => {
 });
 
 if($token == "mingwai221"){
-	echo $challenge;
+	res.status(200).send(challenge);
 };
